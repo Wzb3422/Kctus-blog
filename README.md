@@ -1,2 +1,16 @@
 # Kctus-blog
-:memo: Inspire by Cactus theme, rebuilt and bettered by React
+
+:memo: A blog theme, inspire by Cactus theme, rebuilt and bettered by React.
+
+## Requirements
+
+### Pages
+
++ Homepage
++ About Me
++ Posts
++ Projects
+
+### Technical
+
++ how to render md files?
