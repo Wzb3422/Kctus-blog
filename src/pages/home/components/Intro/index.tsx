@@ -1,16 +1,10 @@
 import React from 'react';
 import { info } from 'Configs';
+import './index.scss';
 
 const Intro: React.FC = () => {
   return (
-    <p
-      style={{
-        fontSize: '14px',
-        textAlign: 'justify',
-        lineHeight: 1.725,
-        margin: '15px 0'
-      }}
-    >
+    <p className='home-header-intro'>
       {info.introduction}
     </p>
   )

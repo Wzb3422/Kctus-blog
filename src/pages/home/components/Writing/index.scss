@@ -1,0 +1,28 @@
+.home-writing {
+  width: 100%;
+  margin-top: 48px;
+  h1 {
+    color: #2BBC8A;
+    font-size: 21px;
+  }
+
+  ul {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 24px;
+
+    li {
+      height: 24px;
+      margin-bottom: 5px;
+      line-height: 24px;
+
+      span.home-writing-item-date {
+        color: #666;
+      }
+      span.home-writing-item-title {
+        text-decoration: underline;
+        margin-left: 20px;
+      }
+    }
+  }
+}

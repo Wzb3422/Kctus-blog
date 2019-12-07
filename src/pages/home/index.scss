@@ -1,11 +1,25 @@
 .home-content-limit {
-  width: 700;
+  width: 760;
   height: 100%;
   margin: 0 auto;
   display: flex;
 
   .home-content {
+    box-sizing: border-box;
     padding: 64px 0;
     flex: 1;
   }
 }
+
+@media (min-width: 700px) {
+  .home-content-limit {
+    width: 700px;
+  }
+}
+
+@media (max-width: 699px) {
+  .home-content-limit {
+    width: 100%;
+  }
+}
+

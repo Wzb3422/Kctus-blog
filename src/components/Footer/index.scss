@@ -1,0 +1,29 @@
+.footer {
+  height: 64px;
+  width: 100%;
+  color: #666;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+
+  .footer-left {
+    
+  }
+
+  ul.footer-right {
+    display: flex;
+    height: 20px;
+    
+    li {
+      border-right: 1px solid #666;
+      line-height: 20px;
+      padding: 0 15px;
+      text-decoration: underline;
+    }
+    li:last-child {
+      border-right: none;
+    }
+  }
+}
