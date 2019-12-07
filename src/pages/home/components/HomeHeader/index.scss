@@ -1,0 +1,38 @@
+.home-header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 32px;
+  
+  img {
+    height: 50px;
+    width: 50px;
+    margin-right: 6px;
+  }
+
+  .home-header-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-left: 15px;
+    }
+
+    .home-header-nav {
+      display: flex;
+      li {
+        color: #2BBC8A;
+        font-size: 13px;
+        padding: 0 15px;
+        border-right: 1px dashed #2BBC8A;
+      }
+      li:last-child {
+        border: none;
+      }
+    }
+  }
+}

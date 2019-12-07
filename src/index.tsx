@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import 'reset.css/reset.css';
+import './index.scss';
 
-const App = () => {
+const Home = lazy(() => import('./pages/home'));
+
+const App: React.FC = () => {
   return (
-    <h1>Hello world</h1>
+    <Router>
+      <Switch>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Route path='/'>
+            <Home />
+          </Route>
+        </Suspense>
+      </Switch>
+    </Router>
   )
 }
 
